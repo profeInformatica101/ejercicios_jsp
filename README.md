@@ -10,8 +10,7 @@
 │   ├── saludo.jsp
 ├── /ejercicio2
 │   ├── viaje.jsp
-├── /ejercicio8
-│   ├── lista_compras.jsp
+
 └── README.md
 ```
 
