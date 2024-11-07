@@ -55,7 +55,3 @@
 ### 7. Tabla de Multiplicar
 **Enunciado**: Crea una página JSP que solicite al usuario un número entre 1 y 10. Al enviar el formulario, la página debe mostrar la tabla de multiplicar de ese número.  
 
-## Ejercicio de Arrays
-
-### 8. Lista de Compras
-**Enunciado**: Crea una página JSP que permita al usuario ingresar varios productos en una lista de compras. Al enviar el formulario, la página debe mostrar la lista completa de productos ingresados, utilizando una lista para almacenarlos. Permite que el usuario agregue productos hasta que decida finalizar.
