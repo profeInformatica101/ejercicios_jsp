@@ -5,7 +5,7 @@
 **Entrega**: La entrega se realizará a través de un repositorio de Git. Crea un repositorio y sube tu código siguiendo la estructura que se detalla a continuación:
 
 ```
-/nombre_del_repositorio
+/tu-proyecto
 ├── /ejercicio1
 │   ├── saludo.jsp
 ├── /ejercicio2
