@@ -5,13 +5,31 @@
 **Entrega**: La entrega se realizará a través de un repositorio de Git. Crea un repositorio y sube tu código siguiendo la estructura que se detalla a continuación:
 
 ```
-/tu-proyecto
-├── /ejercicio1
-│   ├── saludo.jsp
-├── /ejercicio2
-│   ├── viaje.jsp
+tu-proyecto
+├── pom.xml
+├── src
+│   └── main
+│       ├── java
+│       │   └── com
+│       │       └── miproyecto
+│       │           ├── services
+│       │           │   ├── CalculadoraImpl.java
+│       │           │   └── Calculadora.java
+│       │           └── servlets
+│       │               └── MiServlet.java
+│       └── webapp
+│           ├── index.jsp                # Página de inicio o menú para acceder a los ejercicios
+│           ├── ejercicios               # Carpeta para los ejercicios JSP
+│           │   ├── saludo_personalizado.jsp       # Ejercicio 1: Saludo Personalizado
+│           │   ├── calculo_tiempo_viaje.jsp       # Ejercicio 2: Cálculo del Tiempo de Viaje
+│           │   ├── mayor_de_tres.jsp              # Ejercicio 3: El Mayor de Tres
+│           │   ├── dia_de_la_semana.jsp           # Ejercicio 4: Día de la Semana
+│           │   ├── categorizacion_edades.jsp      # Ejercicio 5: Categorización de Edades
+│           │   ├── suma_acumulativa.jsp           # Ejercicio 6: Suma Acumulativa
+│           │   └── tabla_multiplicar.jsp          # Ejercicio 7: Tabla de Multiplicar
+│           └── WEB-INF
+│               └── web.xml                        # Archivo de configuración
 
-└── README.md
 ```
 
 **Valoración**: Se valorará la originalidad y claridad en las soluciones propuestas. Asegúrate de documentar cada etapa del proceso y de comentar tu código JSP.
