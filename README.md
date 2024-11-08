@@ -36,7 +36,7 @@ tu-proyecto
 
 **Instrucciones de Entrega**: 
 - La tarea se realizará en grupos de 3 estudiantes. 
-- Se puede utilizar como base el proeycto https://github.com/profeInformatica101/ejercicios_jsp/tree/main/tu-proyecto e importar el proyecto como un proyecto Maven en su entorno de desarrollo. Los estudiantes completarán los ejercicios y, al finalizar, realizarán un pull request con sus soluciones.
+- Se puede utilizar como base el proeycto https://github.com/profeInformatica101/ejercicios_jsp/tree/main/tu-proyecto e importar el proyecto como un proyecto Maven en su entorno de desarrollo. Se deberán completarán los ejercicios y, al finalizar, realizarán un pull request con sus soluciones.
 - Asegúrate de que el repositorio esté disponible en la siguiente ruta: https://github.com/<su_usuario_github>/ejercicios_jsp.
 
 ---
