@@ -8,11 +8,6 @@
     <a href="miServlet">Ir a MiServlet</a>
     <a href="suma.jsp?numero1=10&numero2=20">Suma.jsp</a>
     
-    
-    <form action="Saludo" method="get">
-    	Nombre: <input type="text" name="name">
-    	<input type="submit" value="Enviar">
-    </form>
   
     
 </body>
