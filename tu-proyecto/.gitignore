@@ -1,1 +1,46 @@
+# Ignorar la carpeta target/ generada por Maven
+# Esta carpeta contiene los archivos de compilación, empaquetado (.war, .jar) y otras salidas
+# que no son necesarias en el control de versiones, ya que pueden regenerarse con "mvn install".
 /target/
+
+# Ignorar los archivos de registro generados por el sistema o aplicaciones.
+# Estos archivos contienen información de eventos, errores y depuración, 
+# y no deben incluirse en el repositorio.
+*.log
+
+# Ignorar configuraciones específicas de Eclipse
+# Estos archivos (.classpath, .project, .settings/) contienen configuraciones de entorno,
+# ajustes del IDE y preferencias que pueden variar entre desarrolladores.
+# Incluirlos puede causar conflictos en configuraciones personales.
+.classpath
+.project
+.settings/
+
+# Ignorar archivos específicos del sistema operativo
+# .DS_Store es un archivo oculto en macOS que almacena la disposición visual de una carpeta,
+# y Thumbs.db es un archivo de Windows que almacena miniaturas de imágenes en una carpeta.
+# Ambos son irrelevantes en el código fuente y pueden causar "ruido" en el repositorio.
+.DS_Store
+Thumbs.db
+
+# Ignorar configuraciones de caché y archivos de proyecto de IntelliJ IDEA
+# La carpeta .idea/ y los archivos .iml, .iws, y .ipr contienen configuraciones de proyecto y
+# preferencias de usuario en IntelliJ IDEA, por lo que es mejor no incluirlos en el repositorio
+# para evitar problemas con configuraciones de entornos distintos.
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Ignorar configuraciones específicas de Visual Studio Code
+# La carpeta .vscode/ contiene configuraciones de entorno específicas de Visual Studio Code
+# (por ejemplo, preferencias de usuario y configuraciones de extensiones), que pueden variar 
+# entre desarrolladores y no deben estar en el control de versiones.
+.vscode/
+
+# Ignorar archivos de Maven Wrapper (mvnw y mvnw.cmd) si no se utiliza en el proyecto
+# El Maven Wrapper permite a un proyecto ejecutarse sin una instalación global de Maven.
+# Si el proyecto no usa Maven Wrapper, se ignoran estos archivos.
+# **/mvnw
+# **/mvnw.cmd
+
